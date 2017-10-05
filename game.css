@@ -1,0 +1,92 @@
+@charset "utf-8";
+html {
+  font-size: 625%;
+  background: #29bedf;
+}
+body,
+header,
+p,
+button {
+  margin: 0;
+  padding: 0;
+}
+.clear {
+  clear: both;
+}
+header {
+  width: 100%;
+  height: 0.7rem;
+  line-height: 0.7rem;
+  font-size: .34rem;
+  text-align: center;
+  color: #fff;
+  border-bottom: .01rem solid #74d4eb;
+}
+header .back {
+  float: left;
+  padding-left: 2%;
+  font-size: .5rem;
+  cursor: pointer;
+}
+header .close {
+  float: right;
+  padding-right: 2%;
+  font-size: .5rem;
+  cursor: pointer;
+}
+main {
+  position: relative;
+}
+main .n {
+  position: absolute;
+  top: .05rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: .22rem;
+  color: #f56b81;
+}
+main .pic-check-status {
+  display: block;
+  width: 2.7rem;
+  height: 4rem;
+  margin: .3rem auto;
+  background: url(images/check-status.png) no-repeat center center;
+  background-size: 2.7rem 4rem;
+}
+main #btnA {
+  display: block;
+}
+main .pic-shashou {
+  display: none;
+  width: 2.7rem;
+  height: 4rem;
+  margin: .3rem auto;
+  background: url(images/shashou.png) no-repeat center center;
+  background-size: 2.7rem 4rem;
+}
+main #btnB {
+  display: none;
+}
+main .pic-shuimin {
+  display: none;
+  width: 2.7rem;
+  height: 4rem;
+  margin: .3rem auto;
+  background: url(images/shuimin.png) no-repeat center center;
+  background-size: 2.7rem 4rem;
+}
+main #btnC {
+  display: none;
+}
+main button {
+  width: 2.7rem;
+  height: .6rem;
+  margin: 0 auto;
+  background-color: #fbb435;
+  font-size: .25rem;
+  color: #fff;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}

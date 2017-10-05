@@ -1,0 +1,98 @@
+@charset "utf-8";
+html {
+  font-size: 625%;
+  background: #29bedf;
+}
+body,
+header,
+p,
+button {
+  margin: 0;
+  padding: 0;
+}
+.clear {
+  clear: both;
+}
+header {
+  width: 100%;
+  height: 0.7rem;
+  line-height: 0.7rem;
+  font-size: .34rem;
+  text-align: center;
+  color: #fff;
+  border-bottom: .01rem solid #74d4eb;
+}
+header .back {
+  float: left;
+  padding-left: 2%;
+  font-size: .5rem;
+  cursor: pointer;
+}
+header .close {
+  float: right;
+  padding-right: 2%;
+  font-size: .5rem;
+  cursor: pointer;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  position: fixed;
+  top: .7rem;
+  left: 0;
+  right: 0;
+  bottom: 1rem;
+  padding: .3rem;
+  overflow-y: auto;
+}
+main .content {
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
+  margin: .1rem;
+}
+main .content .status {
+  width: 100%;
+  height: 70%;
+  line-height: .7rem;
+  margin: 0;
+  background-color: #fbb435;
+  font-size: .2rem;
+  text-align: center;
+  color: #fff;
+}
+main .content .number {
+  width: 100%;
+  height: 30%;
+  line-height: .3rem;
+  margin: 0;
+  font-size: .2rem;
+  text-align: center;
+  color: #fff;
+  background-color: #369dbe;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 1.4rem;
+}
+footer button {
+  position: fixed;
+  bottom: .2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2.7rem;
+  height: .6rem;
+  font-size: .25rem;
+  color: #fff;
+  background-color: #fbb435;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}

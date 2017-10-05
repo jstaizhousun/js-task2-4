@@ -1,0 +1,175 @@
+@charset "utf-8";
+html {
+  font-size: 625%;
+}
+body,
+header,
+p,
+button {
+  margin: 0;
+  padding: 0;
+}
+.clear {
+  clear: both;
+}
+header {
+  width: 100%;
+  height: 0.7rem;
+  background: #29bedf;
+}
+header span {
+  float: left;
+  padding-left: 2%;
+  line-height: 0.7rem;
+  font-size: .4rem;
+  color: #fff;
+  cursor: pointer;
+}
+main {
+  background: #f0f0f0;
+  padding-top: .1rem;
+}
+main .player-matching {
+  width: 96%;
+  height: .45rem;
+  line-height: .45rem;
+  margin: 0 auto;
+  font-size: 0.2rem;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px 1px #cccccc;
+}
+main .contain {
+  position: relative;
+  width: 96%;
+  height: 2.2rem;
+  margin: .1rem auto;
+  padding-top: .3rem;
+  font-size: .2rem;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px 1px #cccccc;
+}
+main .contain .killer {
+  float: left;
+  width: 1.5rem;
+  height: .45rem;
+  line-height: .45rem;
+  margin-left: 10%;
+}
+main .contain .killer .killer-pic {
+  float: left;
+  margin-right: .2rem;
+  width: 0.45rem;
+  height: 0.45rem;
+  background: url(images/kill.png) no-repeat center center;
+  background-size: 0.45rem 0.45rem;
+}
+main .contain .killer .killer-num {
+  float: left;
+}
+main .contain .person {
+  float: right;
+  width: 1.5rem;
+  height: .45rem;
+  line-height: .45rem;
+  margin-right: 10%;
+}
+main .contain .person .person-pic {
+  float: left;
+  width: 0.45rem;
+  height: 0.45rem;
+  margin-right: .2rem;
+  background: url(images/person.png) no-repeat center center;
+  background-size: 0.45rem 0.45rem;
+}
+main .contain .person .person-num {
+  float: left;
+}
+main .result {
+  width: 96%;
+  min-height: 1rem;
+  margin: .1rem auto;
+  font-size: 0.2rem;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px 1px #cccccc;
+}
+main .result .way {
+  width: 3.2rem;
+  min-height: 1rem;
+  margin: 0 auto;
+}
+main .result .way .pull {
+  float: left;
+  margin-top: .2rem;
+  font-size: .18rem;
+}
+main .result .way input {
+  float: left;
+  width: .5rem;
+  height: .25rem;
+  margin-top: .18rem;
+  margin-left: .1rem;
+  font-size: .18rem;
+  font-weight: 600;
+  text-align: center;
+  color: #fbb442;
+  outline: none;
+}
+main .result .way .info {
+  float: left;
+  margin-top: .24rem;
+  margin-left: .1rem;
+  font-size: .14rem;
+  color: #fbb442;
+}
+main button {
+  display: block;
+  width: 96%;
+  height: .6rem;
+  margin: 0 auto;
+  font-size: .25rem;
+  color: #fff;
+  background-color: #fbb442;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 520px) {
+  main .contain .killer {
+    position: absolute;
+    top: .3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1.5rem;
+    height: .45rem;
+    line-height: .45rem;
+    margin: 0 auto;
+  }
+  main .contain .person {
+    position: absolute;
+    top: .9rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1.5rem;
+    height: .45rem;
+    line-height: .45rem;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 338px) {
+  main .result .way .info {
+    float: left;
+    margin-top: .15rem;
+    margin-left: .1rem;
+    font-size: .14rem;
+    color: #fbb442;
+  }
+  main .result .way {
+    width: 1.9rem;
+    min-height: 1rem;
+    margin: 0 auto;
+  }
+}
