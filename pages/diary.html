@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>日志</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/diary.css">
+</head>
+<body>
+    <header>
+        <button class="left" id="return-deal"></button>
+        <button class="right" id="quit-game"></button>
+        <span id="title">法官日记</span>
+    </header>
+    <main>
+        <div class="caption" id="caption">
+            <div class="caption-title">
+                <span id="caption1">发言讨论结束，大家请投票</span>
+                <button type="button" class="play-music" id="play-music"></button>
+            </div>
+            <p class="caption-content" id="caption2">点击得票数最多人的头像</p>
+        </div>
+        <div class="container" id="container"></div>
+
+    </main>
+    <footer>
+        <button id="start">开始游戏</button>
+    </footer>
+    <script src="../lib/jquery-3.2.1.min.js"></script>
+    <script src="../js/diary.js"></script>
+</body>
+</html>

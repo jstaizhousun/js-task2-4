@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>游戏结果</title>
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/gameover.css">
+</head>
+<body>
+    <header>
+        <button class="left" id="go-home-page"></button>
+        <button class="right" id="read"></button>
+        <span>游戏结果</span>
+    </header>
+    <main>
+    	<div class="game-results">
+    		<div class="game-cup">
+    			<img src="../img/img_champion.png">
+    			<span class="winner" id="winner">平民胜利</span>
+    		</div>
+    		<div class="good">太棒了！你知道么？在杀人游戏中只有20%的<span id="who">杀手</span>取得游戏最终的胜利哦！</div>
+    		<div class="game-data">
+    			<div>本次游戏共计用时0小时25分钟</div>
+    			<div class="number-of-player">
+    				<span class="role" id="killer">杀&emsp;手0人</span>
+    				<span class="role" id="people">平&emsp;民1人</span>
+    			</div>
+    			<div>杀手词汇：大膜法师</div>
+    			<div>平民词汇：苟</div>
+    		</div>
+    	</div>
+    	<div id="event"></div>
+    </main>
+    <footer>
+    	<button type="button" class="left" id="again">再来一局</button>
+    	<button type="button" class="right" id="uploading">上传并分享</button>
+    </footer>
+	<script src="../lib/jquery-3.2.1.min.js"></script>
+    <script src="../js/gameover.js"></script>
+</body>
+</html>

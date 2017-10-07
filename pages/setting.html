@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="../css/matching.css">
+	<title>配比页</title>
+</head>
+<body>
+<header>
+	<span onClick="window.location.href='index.html'"> < </span>
+</header>
+<main>
+	<div class="player-matching">
+		玩家配比
+	</div>
+	<div class="contain">
+		<div class="killer">
+			<div class="killer-pic"></div>
+			<div class="killer-num">
+			杀手<span class="killer-info" id="killerNum">  </span>人
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="person">		
+			<div class="person-pic"></div>
+			<div class="person-num">
+			水民<span class="person-info" id="personNum">  </span>人
+			</div>
+			<div class="clear"></div>
+		</div>		
+	</div>
+	<div class="result">
+	</div>
+	<div class="result">
+		<div class="way">
+			<p class="pull">请输入玩家数量</p>
+			<input type="text" name="num" oninput="getNum()">
+			<div class="info">玩家数量为4~18人</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<button id="get">去发牌</button>
+</main>
+<script src="../js/matching.js"></script>
+</body>
+</html>

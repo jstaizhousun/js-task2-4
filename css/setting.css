@@ -1,0 +1,83 @@
+
+body {
+  background-color: #f0f0f0;
+}
+
+header button.left {
+  position: absolute;
+  left: 18px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  width: 15px;
+  height: 21px;
+  background: url(../img/icon_left.png) no-repeat;
+  background-size: 15px 21px;
+}
+
+main {
+  padding: 5px 15px 0;
+}
+main .title, main .player-ratio, main .player-word, main .input-number {
+  width: 100%;
+  margin-bottom: 5px;
+  background-color: #ffffff;
+}
+main .title {
+  height: 30px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 30px;
+}
+main .player-ratio {
+  height: 200px;
+}
+main .player-ratio div {
+  float: left;
+  width: 50%;
+  height: 30px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+}
+main .player-ratio::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+main .player-word {
+  height: 100px;
+}
+main .input-number {
+  height: 95px;
+}
+main .input-number form {
+  padding-top: 20px;
+  text-align: center;
+}
+main .input-number label {
+  font-size: 14px;
+}
+main .input-number input {
+  width: 34px;
+  height: 20px;
+  background-color: #f0f0f0;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  color: #fab344;
+  font-size: 12px;
+  text-align: center;
+}
+main .input-number span {
+  font-size: 12px;
+  color: #fab344;
+}
+main .deal {
+  width: 100%;
+  height: 44px;
+  margin: 10px 0;
+  background-color: #fab344;
+  font-size: 20px;
+  color: #ffffff;
+}

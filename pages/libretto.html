@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>法官台本</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/libretto.css">
+</head>
+<body>
+    <header>
+        <button class="left" id="return-diary"></button>
+        <button class="right" id="quit-game"></button>
+        <span id="title">法官台本</span>
+    </header>
+    <main>
+        <div class="container" id="container"></div>
+        <div class="day-box">
+            <div class="day" id="last-day">第1天</div>
+            <div class="stage" id="stage">
+                <div class="item" id="kill">杀手杀人<span></span></div>
+                <span class="result" id="who-die"></span>
+                <div class="item" id="last-word">亡灵发表遗言<span></span></div>
+                <div class="item" id="speak">玩家依次发言<span></span></div>
+                <div class="item" id="vote">全民投票<span></span></div>
+                <span class="result" id="vote-who"></span>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <button class="left" id="game-over">结束游戏</button>
+        <button class="right" id="diary">法官日志</button>
+    </footer>
+    <script src="../lib/jquery-3.2.1.min.js"></script>
+    <script src="../js/libretto.js"></script>
+</body>
+</html>

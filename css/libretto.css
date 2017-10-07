@@ -1,0 +1,134 @@
+header {
+  border-bottom: 1px solid #74d4eb; }
+  header button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0; }
+  header .left {
+    left: 18px;
+    width: 15px;
+    height: 21px;
+    background: url(../img/icon_left.png) no-repeat;
+    background-size: 15px 21px; }
+  header .right {
+    right: 18px;
+    width: 18px;
+    height: 18px;
+    background: url(../img/icon_close.png) no-repeat;
+    background-size: 18px 18px; }
+
+body {
+  background-color: #f0f0f0; }
+
+main {
+  margin-bottom: 100px; }
+  main .day-box {
+    width: calc(100% - 22px);
+    margin: 10px auto;
+    font-size: 16px; }
+    main .day-box .day {
+      height: 42px;
+      border: 1px solid #c9c9c9;
+      background-color: #ffffff;
+      font-weight: bold;
+      text-align: center;
+      line-height: 42px;
+      color: #29bde0;
+      cursor: pointer; }
+    main .day-box .stage {
+      display: none;
+      position: relative;
+      margin-top: 10px;
+      border: 1px solid #c9c9c9;
+      background-color: #ffffff; }
+    main .day-box .stage::before {
+      position: absolute;
+      top: -28px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: block;
+      content: '';
+      border-width: 14px 14px 14px 14px;
+      border-style: solid;
+      border-color: transparent transparent #ffffff transparent;
+      z-index: 2; }
+    main .day-box .stage::after {
+      position: absolute;
+      top: 45px;
+      left: 34px;
+      content: '';
+      width: 2px;
+      height: calc(100% - 90px);
+      background-color: #c9c9c9;
+      z-index: 1; }
+    main .day-box div.checked {
+      background-color: #83b09a; }
+    main .day-box .item {
+      position: relative;
+      height: 40px;
+      margin: 25px 10px 25px 70px;
+      background-color: #24a7c6;
+      text-align: center;
+      color: #fff;
+      line-height: 40px;
+      cursor: pointer; }
+      main .day-box .item span.click {
+        border-color: transparent #83b09a transparent transparent; }
+    main .day-box .item span {
+      position: absolute;
+      top: 50%;
+      left: -24px;
+      transform: translateY(-50%);
+      display: block;
+      content: '';
+      border-width: 8px 12px 8px 12px;
+      border-style: solid;
+      border-color: transparent #24a7c6 transparent transparent;
+      z-index: 2; }
+    main .day-box div.item:nth-child(1)::before,
+    main .day-box div.item:nth-child(3)::before {
+      position: absolute;
+      top: 50%;
+      left: -50px;
+      transform: translateY(-50%);
+      display: block;
+      content: '';
+      width: 30px;
+      height: 30px;
+      z-index: 2; }
+    main .day-box div.item:nth-child(1)::before {
+      background: url("../img/moon.png") no-repeat;
+      background-size: 30px 30px; }
+    main .day-box div.item:nth-child(3)::before {
+      background: url("../img/sun.png") no-repeat;
+      background-size: 30px 30px; }
+    main .day-box .result {
+      display: block;
+      margin: 25px 10px 25px 70px;
+      font-size: 12px;
+      text-align: left; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 64px;
+  width: 100%;
+  background: rgba(41, 190, 223, 0.5);
+  z-index: 999; }
+  footer button {
+    height: 42px;
+    width: 136px;
+    margin-top: 11px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px; }
+  footer .left {
+    float: left;
+    margin-left: 12px;
+    background: #f4706e; }
+  footer .right {
+    float: right;
+    margin-right: 12px;
+    background: #fbb536; }
+

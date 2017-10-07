@@ -1,0 +1,112 @@
+header {
+  border-bottom: 1px solid #74d4eb;
+}
+header button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+header .left {
+  left: 18px;
+  width: 25px;
+  height: 21px;
+  background: url(../img/icon_home.png) no-repeat;
+  background-size: 25px 21px;
+}
+header .right {
+  right: 18px;
+  width: 24px;
+  height: 24px;
+  background: url(../img/icon_direction.png) no-repeat;
+  background-size: 24px 24px;
+}
+
+main {
+  margin-bottom: 95px;
+  overflow: hidden;
+}
+main .game-results {
+  height: auto;
+  padding: 12px 40px;
+  background: #29bedf;
+}
+main .game-cup {
+  position: relative;
+  height: 103px;
+  width: 176px;
+  margin: 0 auto;
+}
+main .game-cup img {
+  height: 103px;
+  width: 176px;
+}
+main .game-cup .winner {
+  position: absolute;
+  left: 40px;
+  bottom: 6px;
+  font-size: 24px;
+  color: #fff;
+  z-index: 1;
+}
+main .good {
+  margin: 10px 0 30px;
+  font-size: 16px;
+  color: #ffc865;
+}
+main .game-data div {
+  margin: 0 0 5px;
+  font-size: 14px;
+  color: #fff;
+}
+main .game-data .role {
+  display: inline-block;
+  margin-right: 24px;
+}
+main .day-list {
+  height: auto;
+  padding: 5px 39px 10px;
+  border-bottom: 1px #ddd solid;
+}
+main .day-list div:first-child {
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+main .day-list .game-event {
+  margin: 5px 0;
+  font-size: 12px;
+  color: #a6a6a6;
+}
+main .day-list .game-time {
+  float: right;
+  font-size: 10px;
+  color: #c7c7c7;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 64px;
+  width: 100%;
+  background: rgba(41, 190, 223, 0.5);
+  z-index: 999;
+}
+footer button {
+  height: 42px;
+  width: 136px;
+  margin-top: 11px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+}
+footer .left {
+  float: left;
+  margin-left: 12px;
+  background: #f4706e;
+}
+footer .right {
+  float: right;
+  margin-right: 12px;
+  background: #fbb536;
+}
+
