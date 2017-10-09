@@ -18,7 +18,7 @@
         container = document.getElementById("container"),
         title = document.getElementById("title");
     /*这里为调试*/
-    // playerArr[3].die = 1;
+    //playerArr[3].die = 1;
     //console.log("游戏第" + day + "天");
     //console.log(arr);
     
@@ -168,8 +168,8 @@
                 killerNum = killerNum - $killerNum;
                 peopleNum = peopleNum - $peopleNum;
                 if(peopleNum === 0){
-                     sessionStorage.setItem("PlayerArr",ar);
-                     day = parseInt(sessionStorage.getItem("Day"));
+                    sessionStorage.setItem("PlayerArr",ar);
+                    day = parseInt(sessionStorage.getItem("Day"));
                     sessionStorage.setItem("Winner","杀手");
                     window.location.href = "gameover.html";
                 }else if(killerNum === 0){
